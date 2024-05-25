@@ -47,7 +47,6 @@ namespace PracticePrograms
                 value = Console.ReadLine();
             }
             while (value == "y" || value == "Y");
-
         }
 
     }
