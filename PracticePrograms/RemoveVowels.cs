@@ -8,7 +8,7 @@ namespace PracticePrograms
     {
         static void Main()
         {
-            string input = "Hello Codeauri Family. enter a string here to remove 	    all Vowels:";
+            string input = "aeiouAEIOUBKK"; //"Hello Codeauri Family. enter a string here to remove 	    all Vowels:";
             string vowels = "aeiouAEIOU";
             string output = "";
             foreach (char item in input)
