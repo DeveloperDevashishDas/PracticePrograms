@@ -24,7 +24,6 @@ namespace PracticePrograms
             //            result[j] = input[i];
             //        }
             //    }
-
             //}
 
             string input = "Bbangkok Bangkok";
