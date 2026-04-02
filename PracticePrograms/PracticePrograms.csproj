@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.0</TargetFramework>
-    <StartupObject>PracticePrograms.HighestSalaryLinq</StartupObject>
+    <StartupObject>PracticePrograms.CharacterOccurrenceString</StartupObject>
   </PropertyGroup>
 
 </Project>
