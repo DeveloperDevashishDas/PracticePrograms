@@ -6,4 +6,8 @@
     <StartupObject>PracticePrograms.CharacterOccurrenceString</StartupObject>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include=".github\.workflows\ci.yml" />
+  </ItemGroup>
+
 </Project>
