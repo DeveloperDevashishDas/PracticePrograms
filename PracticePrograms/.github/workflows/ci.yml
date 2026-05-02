@@ -3,11 +3,14 @@
 on:
   push:
     branches:
-      - feature/test-yml
+      - main
+      - develop
+      - feature/**
   pull_request:
     branches:
       - main
       - develop
+  workflow_dispatch:
 
 jobs:
   build:
