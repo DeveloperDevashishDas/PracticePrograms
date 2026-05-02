@@ -3,8 +3,6 @@
 on:
   push:
     branches:
-      - main
-      - develop
       - feature/test-yml
   pull_request:
     branches:
