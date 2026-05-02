@@ -8,7 +8,7 @@ namespace PracticePrograms
     {
         static void Main()
         {
-            //Sorted List Unsorted
+            //Sorted List Unsorted.
             int[] a = { 5, 5, 4, 3, 3, 2 };
             HashSet<int> hs = new HashSet<int>();
             for (int i = 0; i < a.Length; i++)
