@@ -7,7 +7,7 @@ namespace PracticePrograms
     public class SmallestElementInaMatrix
     {
         static void Main()
-        {
+        {   /* Same logic to be used for largest, just > */
             int[,] matrix = {
             { 12, 45, 7 },
             { 34, 2, 19 },
@@ -33,8 +33,9 @@ namespace PracticePrograms
             for (int i = 0; i < rows; i++) 
             {
                 for (int j = 0; j < cols; j++)
-                {
-                    if (matrix[i, j] < smallest)
+                {   
+                    // Largest  >
+                    if (matrix[i, j] > smallest)
                     {
                         smallest = matrix[i, j];
                     }
