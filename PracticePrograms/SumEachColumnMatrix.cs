@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PracticePrograms
 {
-    public class SumEachRowMatrix
+    public class SumEachColumnMatrix
     {
         static void Main()
         {
@@ -23,7 +23,7 @@ namespace PracticePrograms
             // Input matrix elements
             Console.WriteLine("Enter matrix elements:");
 
-            for (int i = 0; i < rows; i++) 
+            for (int i = 0; i < rows; i++)
             {
                 for (int j = 0; j < cols; j++)
                 {
@@ -32,19 +32,8 @@ namespace PracticePrograms
                 }
             }
 
-            // Find sum of each row
-            Console.WriteLine("\nSum of each row:");
-
-            //for (int i = 0; i < rows; i++)
-            //{
-            //    int sum = 0;
-            //    for (int j = 0; j < cols; j++)
-            //    {
-            //        sum += matrix[i, j];
-            //    }
-            // //i + 1 is used because row numbering for users usually starts from 1
-            // Console.WriteLine($"Sum of Row {i + 1} = {sum}");
-            //}
+            // Find sum of each Column
+            Console.WriteLine("\nSum of each Column:");
 
             for (int j = 0; j < cols; j++)
             {
@@ -56,7 +45,7 @@ namespace PracticePrograms
                     sum += matrix[i, j];
                 }
 
-             Console.WriteLine($"Sum of Column {j + 1} = {sum}");
+                Console.WriteLine($"Sum of Column {j + 1} = {sum}");
 
             }
         }
