@@ -15,9 +15,6 @@ namespace PracticePrograms
             Console.Write("Enter number of rows: ");
             rows = Convert.ToInt32(Console.ReadLine());
 
-            Console.Write("Enter number of rows: ");
-            rows = Convert.ToInt32(Console.ReadLine());
-
             Console.Write("Enter number of columns: ");
             cols = Convert.ToInt32(Console.ReadLine());
 
