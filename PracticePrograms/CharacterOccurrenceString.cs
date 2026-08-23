@@ -8,7 +8,7 @@ namespace PracticePrograms
     {
         static void Main()
         {
-            
+            //CharacterOccurrenceString   
             Console.WriteLine("Enter the string whose character occurrence you need");
             string input = Console.ReadLine();
             Dictionary<char,int> count = new Dictionary<char,int>();
