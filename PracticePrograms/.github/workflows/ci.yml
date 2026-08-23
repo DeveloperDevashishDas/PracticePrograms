@@ -1,4 +1,4 @@
-﻿name: CI
+name: PracticePrograms CI
 
 on:
   push:
