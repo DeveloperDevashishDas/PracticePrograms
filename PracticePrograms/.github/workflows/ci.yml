@@ -3,15 +3,32 @@
 on:
   push:
     branches:
+      - main
+      - develop
+
+  pull_request:
+    branches:
+      - main
       - develop
 
 jobs:
-  build:
+  build-and-test:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Print message
-        run: echo "CI is running successfully!"
+      - name: Setup .NET 8
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Restore dependencies
+        run: dotnet restore PracticePrograms.sln
+
+      - name: Build solution
+        run: dotnet build PracticePrograms.sln --no-restore --configuration Release
+
+      - name: Run tests
+        run: dotnet test PracticePrograms.sln --no-build --configuration Release
