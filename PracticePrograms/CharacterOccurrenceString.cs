@@ -28,7 +28,6 @@ namespace PracticePrograms
             { 
                 Console.WriteLine("Character Count is {0} : {1}", pair.Key,pair.Value );
             }
-
             Console.ReadLine();
         }
     }
